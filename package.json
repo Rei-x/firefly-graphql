@@ -1,0 +1,19 @@
+{
+  "name": "firefly-graphql",
+  "scripts": {
+    "start": "mesh start",
+    "dev": "mesh dev",
+    "build": "mesh build"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "3.24.0"
+  },
+  "dependencies": {
+    "@graphql-mesh/cli": "^0.88.5",
+    "@graphql-mesh/openapi": "^0.97.5",
+    "graphql": "^16.8.1"
+  }
+}

@@ -1,0 +1,9 @@
+sources:
+  - name: Firefly
+    handler:
+      openapi:
+        source: https://api-docs.firefly-iii.org/firefly-iii-2.0.12-v1.yaml
+        endpoint: '{env.BASE_URL}/api'
+        operationHeaders:
+          Authorization: Bearer {context.headers['api-token']}
+
